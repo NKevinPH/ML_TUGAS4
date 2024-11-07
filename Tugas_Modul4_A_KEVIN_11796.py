@@ -46,9 +46,9 @@ if uploaded_file is not None:
 
     model_directory = r'D:\Nicolaus Kevin PH\SEMS 5\ML\Pert 10\Unsupervised Learning (Praktek)\Tugas4_A_11796'
     model_path = {
-        "AGG_model" : os.path.join(model_directory, r'AGG_model.pkl'),
-        "KMeans_model" : os.path.join(model_directory, r'KMeans_model.pkl'),
-        "DBSCAN_model" : os.path.join(model_directory, r'DBSCAN_model.pkl')
+        "AGG_model" : 'AGG_model.pkl',
+        "KMeans_model" : 'KMeans_model.pkl',
+        "DBSCAN_model" : 'DBSCAN_model.pkl'
     }
 
     models = {}
